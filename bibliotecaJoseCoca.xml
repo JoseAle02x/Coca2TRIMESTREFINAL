@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="Biblioteca000.css"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca00.xsl"?>
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/JOSECOCA2TRIMESTRE/biblioteca0.xsd">
   <libro>
     <foto>miki.webp</foto>
