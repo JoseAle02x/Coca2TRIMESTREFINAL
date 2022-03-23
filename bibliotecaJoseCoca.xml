@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Biblioteca000.css"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/JOSECOCA2TRIMESTRE/biblioteca0.xsd">
+  <libro>
+    <foto>miki.webp</foto>
+    <sexo>Mujer</sexo>
+    <titulo>miki Mouse</titulo>    
+    <autor fechaNacimiento="17/10/2002">Milan Kundera</autor>
+  <fechaPublicacion año="1345" /> 
+  </libro>
+  <libro>
+    <foto>senda.webp</foto>
+    <sexo>Hombre</sexo>
+    <titulo>Senda en el 5 sueño</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1973"/>
+  </libro>
+  <libro>
+    <foto>summer.webp</foto>
+    <sexo>Hombre</sexo>
+    <titulo>Queda poco para el summer</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1969"/>
+  </libro>
+</biblioteca>
