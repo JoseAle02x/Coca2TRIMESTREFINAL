@@ -5,28 +5,21 @@
 		<xsl:template match="/">
 	<html><head><link rel="stylesheet" type="text/css" href="biblioteca.css" /></head><body>  <h1>MUY CORTO </h1> <div id="voltearimagen">
       <xsl:apply-templates />
-     
-   </div> </body></html>
+    </body></html>
   </xsl:template>
   
-  
   <xsl:template match="libro">
-    <div id="girarimagen">
-  <img>
-        <xsl:attribute name="src">
+    <div>
+    	<img>
+						<xsl:attribute name="src">
+							<xsl:value-of select="foto"/>
+						</xsl:attribute>
+    	</img>
 
-        <xsl:value-of select="foto"/>
-      </xsl:attribute>
-      </img>
-
-    <h2><xsl:value-of select="titulo"/></h2>
-    
-    <p> Fecha de salida: <xsl:value-of select="fechaPublicacion/@año"/></p>
-
-
-     <p><xsl:value-of select="autor"/>, <xsl:value-of select="sexo"/></p>
-    </div>
- 
+		<h2>
+			<xsl:value-of select="titulo"/>
+		</h2>     
+    </div> 
 		
 		
 	</xsl:template>
